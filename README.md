@@ -21,10 +21,15 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
 ---
-
-## Setup the Environment
+---
+## Getting Started
+### Setup the Environment
 
 * Create a virtualenv and activate it
+```
+python3 -m venv <your_venv>
+source <your_venv>/bin/activate
+```
 * Run `make install` to install the necessary dependencies
 
 ### Running `app.py`
