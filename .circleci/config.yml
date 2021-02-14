@@ -30,6 +30,9 @@ jobs:
             # Install hadolint
             wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&\
             chmod +x /bin/hadolint
+            # Install pylint
+            apk add build-base
+            pip3 install -U pylint
       - save_cache:
           paths:
             - ./venv
